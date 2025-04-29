@@ -1,7 +1,7 @@
-params.assemblyReads = "Error: Input the prefix of your _{1,2}.fastq files with --assemblyReads <prefix>"
+params.assemblyReads = "Error: Input the name of your fastq file (pair) with --assemblyReads <fileName_{1,2}.fastq>. Ensure that paired data includes the '{1,2}' as shown in the example."
 params.mappingReads = "Error: Input the directory containing individual read fastq files for mapping with --mappingReads <read directory>"
 params.CODE = "Error: Input a string to be added as a prefix in the assembly and output files with --CODE <code>"
-params.scriptDir = "Error: Input the directory containing all necessary scripts for this pipeline"
+params.scriptDir = "Error: Input the directory containing all necessary scripts for this pipeline with --scriptDir <directory>"
 
 log.info """\
 	Values of Required Parameters:
