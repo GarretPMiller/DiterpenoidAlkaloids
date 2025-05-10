@@ -249,4 +249,3 @@ dependencies:
   - zlib-ng=2.2.2=h5888daf_0
   - zstandard=0.23.0=py312hef9b889_1
   - zstd=1.5.6=hc292b87_0
-prefix: /mnt/home/mill2937/miniconda3/envs/bioinfo
