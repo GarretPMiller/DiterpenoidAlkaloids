@@ -259,7 +259,7 @@ workflow {
 	// --- For an assembly with paired-end reads, use the following as input for mapping reads with Salmon
 	mappingReads_ch = Channel.fromFilePairs("${params.mappingReads}/*_{1,2}.{fastq,fq}")
 	mappedReads_ch = SALMON_MAP(salmonIndex_ch, mappingReads_ch).collect()
-	// --- For an assembly with paired-end reads, use the following as input for mapping reads with Salmon
+	// --- For an assembly with single-end reads, use the following as input for mapping reads with Salmon
 	//mappingReads_ch = channel.fromPath("${params.mappingReads}/*.{fastq,fq}")
 	//mappedReads_ch = SALMON_MAP_SINGLE(salmonIndex_ch, mappingReads_ch).collect()
 	
